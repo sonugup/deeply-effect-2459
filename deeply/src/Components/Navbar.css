@@ -1,0 +1,62 @@
+.Nav-1{
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: red;
+        background-color: aqua;
+        height: 50px;
+        /* margin-bottom: 100%; */
+}
+
+.Nav2{
+    /* height: 10px; */
+    background-color: red;
+    border: 2px solid blue;
+} 
+
+.Nav-2 {
+    position: relative;
+    font-size: 15px;
+    margin: auto;
+    font-family: sans-serif;
+    display: inline-block;
+    cursor: pointer;
+   
+    /* background-color: wheat; */
+}
+
+.In {
+    display: grid;
+    background-color: white;
+    padding: 20px;
+    /* height: 10px; */
+    margin: -10px;
+}
+
+.Nav-3 {
+    display: none;
+    font-family: sans-serif;
+    width: 90%;
+    
+    background-color: aliceblue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+   
+}
+
+.In>div {
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2),
+        0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    margin: 10px;
+    width: 100%;
+    border-radius: 10px;
+    /* margin: -10px; */
+}
+
+.Nav-2:hover .Nav-3 {
+    margin: -10px;
+    display: block;
+}
+
