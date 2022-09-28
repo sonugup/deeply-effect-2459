@@ -1,0 +1,61 @@
+.Cont-2{
+    display: flex;
+    width: 90%;
+    padding: 10%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.Img{
+    width: 500px;
+}
+.Img2{
+    width: 110%;
+    padding-left: -10px ;
+}
+.Cont{
+    width: 80%;
+    margin: auto;
+}
+.Cont2-1{
+    padding: 20px;
+    line-height: 45px;
+    /* text-align: center; */
+    font-size: 27px;
+    margin: auto;
+   
+}
+.Cont2-2{
+    padding: 20px;
+    line-height: 45px;
+    /* text-align: center; */
+    font-size: 27px;
+    margin: auto;
+    width: 50%;
+   
+}
+.Cont2-1>h5{
+    color: blue;
+}
+.Btn1{
+    background-color: blue;
+    padding: 18px;
+    font-size: 20px;
+    border: none;
+    border-radius: 6px;
+    color: white;
+}
+.Btn2{
+    border: 1px solid blue;
+    padding: 18px;
+    font-size: 20px;
+    border-radius: 6px;
+    
+}
+.Btn>div{
+   
+    padding: 30px;
+}
+.Btn{
+    display: flex;
+}
