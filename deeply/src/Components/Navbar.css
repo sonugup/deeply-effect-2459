@@ -2,16 +2,20 @@
     display: flex;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        color: red;
-        background-color: aqua;
+        background-color: white;
         height: 50px;
-        /* margin-bottom: 100%; */
+        width: 80%;
+        margin: auto;
+         position: fixed;
 }
+.Nav{
+    width: 80%;
+    margin: auto;
+}
+.Sel{
+    border: none;
+    font-size: 18px;
 
-.Nav2{
-    /* height: 10px; */
-    background-color: red;
-    border: 2px solid blue;
 } 
 
 .Nav-2 {
@@ -46,15 +50,22 @@
 }
 
 .In>div {
-    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2),
-        0 4px 10px 0 rgba(0, 0, 0, 0.19);
+    /* box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2),
+        0 4px 10px 0 rgba(0, 0, 0, 0.19); */
     text-align: center;
     margin: 10px;
     width: 100%;
     border-radius: 10px;
     /* margin: -10px; */
 }
+.In2>div{
+    display: flex;
+}
+.In2>div>img{
+    width: 40px;
+    padding: 20px;
 
+}
 .Nav-2:hover .Nav-3 {
     margin: -10px;
     display: block;

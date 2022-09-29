@@ -59,3 +59,32 @@
 .Btn{
     display: flex;
 }
+.Img3{
+    width: 150px;
+    border-radius: 50%;
+    margin-top: -50%;
+}
+.Cont2-3{
+    text-align: center;
+    margin:5%  1% auto;
+    /* padding: 40px; */
+    border-radius: 10px;
+    line-height: 30px;
+    border: 1px solid red;
+    font-size: 19px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+        0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Cont-3{
+    width: 1400px;
+    padding: 40px;
+    display: flex;
+    margin:1% auto;
+    overflow-x: scroll;
+    /* justify-content: space-around; */
+}
+.Cont-cl{
+    color: gray;
+    font-style:italic;
+}
