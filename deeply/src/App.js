@@ -1,16 +1,22 @@
 
 import React from 'react';
-import Home from './Home/Home';
+
 import Footer from './Components/Footer';
 
+
 import Navbar from './Components/Navbar';
+
+import AllRouter from './Router/AllRouter';
 
 
 function App() {
   return (
     <div className="App">
        <Navbar/>
-      <Home/>
+       <AllRouter/>
+       {/* <About/> */}
+       {/* <Form/> */}
+      {/* <Home/> */}
       <Footer/>
     </div>
   );
