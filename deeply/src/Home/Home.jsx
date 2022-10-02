@@ -2,11 +2,14 @@ import React from "react";
 // import { Form } from "react-router-dom";
 import "./Home.css"
 import { Flex, Box, Svg, Text, Container, Image, Button, Headers } from "@chakra-ui/react"
+import Navbar from "../Components/Navbar";
+import Footer from "../Components/Footer";
 
 
 const Home = () => {
     return (
         <Container>
+            <Navbar/>
             <Container maxW='2xl' bg='blue.600' centerContent>
                 <Box className="Cont">
                     <Box className="Cont-2">
@@ -108,106 +111,104 @@ const Home = () => {
 
                 <Container className="" w="100vw">
                     <Flex color='gray' w="100%">
-                        {/* <Flex w='100px' bg='green.500'>
-
-                            <Image src="https://buffer.com/static/testimonials/luis-cancel-huckberry-mobile.jpg" />
-                            <Text fontFamily="Roboto, sans-serif" mt={{ base: "30px", lg: "50px" }}>Buffer has made sharing our story and building our brand on social media so much easier.</Text>
-                            <Svg w="70px" xmlns="https://tse2.mm.bing.net/th?id=OIP.cRWLS3xlHirb5A4voGhJqAHaHa&pid=Api&P=0" />
-                            <Text fontFamily="Popping, sans-serif" mt={{ base: "30px", lg: "50px" }}>Luis Cancel, Managing Editor</Text>
-                        </Flex>
-                        <Flex w='100px' bg='green.500'>
-                            <Image src="https://buffer.com/static/testimonials/luis-cancel-huckberry-mobile.jpg" />
-                            <Text fontFamily="Roboto, sans-serif" mt={{ base: "30px", lg: "50px" }}>Buffer has made sharing our story and building our brand on social media so much easier.</Text>
-                            <Image w="70px" src="https://tse2.mm.bing.net/th?id=OIP.cRWLS3xlHirb5A4voGhJqAHaHa&pid=Api&P=0" />
-                            <Text fontFamily="Popping, sans-serif" mt={{ base: "30px", lg: "50px" }}>Luis Cancel, Managing Editor</Text>
-                        </Flex>
-                        <Flex w='100px' bg='green.500'>
-                            <Image src="https://buffer.com/static/testimonials/luis-cancel-huckberry-mobile.jpg" />
-                            <Text fontFamily="Roboto, sans-serif" mt={{ base: "30px", lg: "50px" }}>Buffer has made sharing our story and building our brand on social media so much easier.</Text>
-                            <Image w="70px" src="https://tse2.mm.bing.net/th?id=OIP.cRWLS3xlHirb5A4voGhJqAHaHa&pid=Api&P=0" />
-                            <Text fontFamily="Popping, sans-serif" mt={{ base: "30px", lg: "50px" }}>Luis Cancel, Managing Editor</Text>
-                        </Flex>
-                        <Flex w='100px' bg='green.500'>
-                            <Image position="absolute" top={{ base: "-50px", lg: "67px" }} w={{ base: "90px", lg: "110px" }} src="https://buffer.com/static/testimonials/luis-cancel-huckberry-mobile.jpg" />
-                            <Text fontFamily="Roboto, sans-serif" mt={{ base: "30px", lg: "50px" }}>Buffer has made sharing our story and building our brand on social media so much easier.</Text>
-                            <Image w="70px" src="https://tse2.mm.bing.net/th?id=OIP.cRWLS3xlHirb5A4voGhJqAHaHa&pid=Api&P=0" />
-                            <Text fontFamily="Popping, sans-serif" mt={{ base: "30px", lg: "50px" }}>Luis Cancel, Managing Editor</Text>
-                        </Flex>
-                        <Flex w='100px' bg='green.500'>
-                            <Image src="https://buffer.com/static/testimonials/luis-cancel-huckberry-mobile.jpg" />
-                            <Text fontFamily="Roboto, sans-serif" mt={{ base: "30px", lg: "50px" }}>Buffer has made sharing our story and building our brand on social media so much easier.</Text>
-                            <Image w="70px" src="https://tse2.mm.bing.net/th?id=OIP.cRWLS3xlHirb5A4voGhJqAHaHa&pid=Api&P=0" />
-                            <Text fontFamily="Popping, sans-serif" mt={{ base: "30px", lg: "50px" }}>Luis Cancel, Managing Editor</Text>
-                        </Flex> */}
-                        {/* <Square bg='blue.500' size='150px'>
-                        <Text>Box 2</Text>
-                    </Square>
-                    <Box flex='1' bg='tomato'>
-                        <Text>Box 3</Text>
-                    </Box> */}
+                       
 
                         <Box className="Cont2-3">
-                        <Box>
-                            <Image className="Img3" src="https://buffer.com/static/testimonials/luis-cancel-huckberry-mobile.jpg" alt="" />
+                            <Box>
+                                <Image className="Img3" src="https://buffer.com/static/testimonials/luis-cancel-huckberry-mobile.jpg" alt="" />
 
+                            </Box>
+                            <Text>Buffer has made sharing our story and building our brand on social media so much easier.</Text>
+                            <Text>Hucberry</Text>
+                            <Text>Luis Cancel, Managing Editor</Text>
                         </Box>
-                        <Text>Buffer has made sharing our story and building our brand on social media so much easier.</Text>
-                        <Text>Hucberry</Text>
-                        <Text>Luis Cancel, Managing Editor</Text>
-                    </Box>
-                    <Box className="Cont2-3">
-                        <Box>
-                            <Image className="Img3" src="https://buffer.com/static/testimonials/liz-gillis-dress-up@2x-mobile.jpg" alt="" />
+                        <Box className="Cont2-3">
+                            <Box>
+                                <Image className="Img3" src="https://buffer.com/static/testimonials/liz-gillis-dress-up@2x-mobile.jpg" alt="" />
 
+                            </Box>
+                            <p>On social, we need to be fast, efficient, and intentional. Buffer allows us to be exactly that.</p>
+                            <h4>DressUp</h4>
+                            <h6>Liz Gillis, Digital Marketer</h6>
                         </Box>
-                        <p>On social, we need to be fast, efficient, and intentional. Buffer allows us to be exactly that.</p>
-                        <h4>DressUp</h4>
-                        <h6>Liz Gillis, Digital Marketer</h6>
-                    </Box>
-                    <Box className="Cont2-3">
-                        <Box>
-                            <Image className="Img3" src="https://buffer.com/static/testimonials/troy-petrunoff@mobile.jpg" alt="" />
+                        <Box className="Cont2-3">
+                            <Box>
+                                <Image className="Img3" src="https://buffer.com/static/testimonials/troy-petrunoff@mobile.jpg" alt="" />
 
+                            </Box>
+                            <p>For a marketing team with a lot on our plates, Buffer is a crucial tool in our brand-building efforts.</p>
+                            <h4>lensabl</h4>
+                            <h6>Troy Petrunoff, Marketing Manager</h6>
                         </Box>
-                        <p>For a marketing team with a lot on our plates, Buffer is a crucial tool in our brand-building efforts.</p>
-                        <h4>lensabl</h4>
-                        <h6>Troy Petrunoff, Marketing Manager</h6>
-                    </Box>
-                    <Box className="Cont2-3">
-                        <Box>
-                            <Image className="Img3" src="https://buffer.com/static/testimonials/rodrigo-hyago-happysocks@mobile.jpg" alt="" />
+                        <Box className="Cont2-3">
+                            <Box>
+                                <Image className="Img3" src="https://buffer.com/static/testimonials/rodrigo-hyago-happysocks@mobile.jpg" alt="" />
 
+                            </Box>
+                            <p>Buffer makes it easy for us to monitor all of our engagement and strengthen the connection with our audience.</p>
+                            <h4>Happy socks</h4>
+                            <h6>Rodrigo Hyago, Social Media Content Manager</h6>
                         </Box>
-                        <p>Buffer makes it easy for us to monitor all of our engagement and strengthen the connection with our audience.</p>
-                        <h4>Happy socks</h4>
-                        <h6>Rodrigo Hyago, Social Media Content Manager</h6>
-                    </Box>
-                    <Box className="Cont2-3">
-                        <Box>
-                            <Image className="Img3" src="https://buffer.com/static/testimonials/joe-mercy-for-animals@mobile.jpg" alt="" />
+                        <Box className="Cont2-3">
+                            <Box>
+                                <Image className="Img3" src="https://buffer.com/static/testimonials/joe-mercy-for-animals@mobile.jpg" alt="" />
 
+                            </Box>
+                            <p>Buffer saves us, literally, hours and in turn helps us spread our message even further.</p>
+                            <h4>Hucberry</h4>
+                            <h6>Joe Loria, Content Manager</h6>
                         </Box>
-                        <p>Buffer saves us, literally, hours and in turn helps us spread our message even further.</p>
-                        <h4>Hucberry</h4>
-                        <h6>Joe Loria, Content Manager</h6>
-                    </Box> 
-
-                    
-                    {/* <div className="Cont2-3">
-                        <div>
-                            <img className="Img3" src="https://buffer.com/static/testimonials/luis-cancel-huckberry-mobile.jpg" alt="" />
-
-                        </div>
-                        <p>Buffer has made sharing our story and building our brand on social media so much easier.</p>
-                        <h4>Hucberry</h4>
-                        <h6>Luis Cancel, Managing Editor</h6>
-                    </div> */}
-                 </Flex>
+                    </Flex>
                 </Container>
-                <div>
+                <Container>
+                    <Box w="100%">
+                        <Flex w="100%" m="auto"  justifyContent="space-between" p=" 0 60px">
+                            <Box m="10px" p="0 70px ">
+                                <Text fontSize="50px" fontFamily="fantasy" color="blue">1.2m+</Text>
+                                <Text fontSize="20px" mt="-20px">sicial followers</Text>
+                            </Box>
+                            <Box m="10px" p="0% 70px">
+                                <Text fontSize="50px" fontFamily="fantasy" color="blue">1.2m+</Text>
+                                <Text fontSize="20px" mt="-20px">sicial followers</Text>
+                            </Box>
+                            <Box m="10px" p="0% 70px">
+                                <Text fontSize="50px" fontFamily="fantasy" color="blue">1.2m+</Text>
+                                <Text fontSize="20px" mt="-20px">sicial followers</Text>
+                            </Box>
+                            <Box m="10px" p="0% 70px">
+                                <Text fontSize="50px" fontFamily="fantasy" color="blue">1.2m+</Text>
+                                <Text fontSize="20px" mt="-20px">sicial followers</Text>
+                            </Box>
+                        </Flex>
+                    </Box>
+                </Container>
+                <Box w="100%" border="0.5px solid gray"></Box>
 
-                </div>
+                <Box className="Cont-2">
+                    <Box>
+                        <Image className="Img" src="https://static.buffer.com/cdn-cgi/image/w=640,quality=90,format=auto/marketing/static/team/buffer-team-map-2022@2x.jpg" />
+                    </Box>
+                    <Box className="Cont2-1" w="45%">
+                        <Text fontSize="35px" fontFamily="fantasy">And we are here to help</Text>
+                        <Text>
+                        Our customer advocates are standing by 24/7 to support you via email and social media. We also have a comprehensive, regularly updated help center for those who prefer to find help themselves.
+                        </Text>
+                        <Button className="Btn2">Visit our help center</Button>
+                    </Box>
+                </Box>
+                <Box>
+                    <Text textAlign="center" fontFamily="fantasy">
+                    An official marketing partner of the industry leaders
+                    </Text>
+                    <Flex w="50%" textAlign="center">
+                        <Image w="170px" src="https://buffer.com/static/ui/meta-business-partner@2x-2.png" alt="" />
+                        <Image w="170px" src="https://buffer.com/static/ui/pinterest-marketing-partner@2x-2.png" alt="" />
+                        <Image w="170px" src="https://buffer.com/static/ui/linkedin-marketing-partner@2x-2.png" alt="" />
+                    </Flex>
+                </Box>
+                
             </Container>
+            <Footer/>
         </Container>
     )
 }

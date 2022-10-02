@@ -12,12 +12,12 @@ import AllRouter from './Router/AllRouter';
 function App() {
   return (
     <div className="App">
-       <Navbar/>
+       
        <AllRouter/>
        {/* <About/> */}
        {/* <Form/> */}
       {/* <Home/> */}
-      <Footer/>
+      {/* <Footer/> */}
     </div>
   );
 }

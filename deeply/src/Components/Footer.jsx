@@ -1,15 +1,27 @@
 
 import React from "react";
+import "./Footer.css"
 
 
-import { Container, Box, Image, Text, Flex, } from "@chakra-ui/react";
+import { Container, Box, Image, Text, Flex, Button } from "@chakra-ui/react";
 const Footer = () =>{
     
     return (
         <Container>
+            <Box w="100%" p="50px" bg="blue">
+                <Box textAlign="center" w="40%" margin="auto" color="white" p="50px" lineHeight='60px'>
+                    <Text p="30px" fontFamily="fantasy" fontSize="35px">140,000+ people like you use Buffer to build their brand on social media every month</Text>
+                    <Button border="none" p="20px" fontSize="20px" borderRadius="10px" bg=" rgb(233, 114, 132)">Get stated now</Button>
+                    <Flex justifyContent="space-around">
+                        <Text>No credit card required</Text>
+                        <Text>14-day free trial</Text>
+                        <Text>Cancel anytime</Text>
+                    </Flex>
+                </Box>
+            </Box>
             <Box w="90%" justifyContent="space-around" margin=" auto" padding="50px 40px" cursor="pointer" className="Foot" >
-                <Flex margin="auto" w="100%" padding="30px 40px" fontSize="20px">
-                <Box margin="auto" padding="10px" w="40%" border="1px solid red" textAlign="center">
+                <Flex margin="auto" w="100%" padding="30px 40px" fontSize="20px" justifyContent="space-around">
+                <Box margin="auto" padding="10px" w="40%"  textAlign="center">
                     <Image w="100px" src="https://tse1.mm.bing.net/th?id=OIP.NKFrNX_QT0o-3YN0pBLPZAHaHa&pid=Api&P=0"/>
                     <Box padding="10px">
                         <Image padding="5px" w="35px" src="https://tse3.mm.bing.net/th?id=OIP.SvQsh4WL9lpg9mMqrzZqLwHaHa&pid=Api&P=0" alt=""/>

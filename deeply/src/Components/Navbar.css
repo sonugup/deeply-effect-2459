@@ -3,7 +3,7 @@
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
         0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background-color: white;
-        height: 50px;
+        height: 100px;
         width: 80%;
         margin: auto;
          position: fixed;
@@ -25,7 +25,8 @@
     font-family: sans-serif;
     display: inline-block;
     cursor: pointer;
-   
+   text-decoration: none;
+   color: black;
     /* background-color: wheat; */
 }
 
@@ -69,5 +70,18 @@
 .Nav-2:hover .Nav-3 {
     margin: -10px;
     display: block;
+}
+
+.Nav-2:first-child{
+    text-decoration: none;
+    color: black;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.login{
+    color:blue;
+    text-decoration: none;
 }
 

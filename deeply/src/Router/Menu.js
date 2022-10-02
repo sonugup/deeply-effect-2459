@@ -1,8 +1,4 @@
-const  Customers =() =>{
-    return (
-        <>
-         {
-           "Cutomers"=[
+const  Menu =[
             {
             "img":"https://buffer.com/static/caseStudies/campaign-monitor/campaign-monitor-logo.svg",
             "desc":"Buffer helps us measure what networks, and what content, is working best for us.",
@@ -67,7 +63,7 @@ const  Customers =() =>{
             "name":"Tony Restell"
            },
         ]
-         }
-        </>
-    )
-}
+
+
+        export default Menu;
+         
